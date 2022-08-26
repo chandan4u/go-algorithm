@@ -1,0 +1,5 @@
+1. Difference between TLS and SSL?
+-> TLS, short for Transport Layer Security, and SSL, short for Secure Socket Layers, are both cryptographic protocols
+   that encrypt data and authenticate a connection when moving data on the Internet.
+   -> Well, TLS is actually just a more recent version of SSL. It fixes some security vulnerabilities in the earlier SSL
+   protocols.

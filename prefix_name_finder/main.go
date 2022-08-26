@@ -38,10 +38,10 @@ func prefixCheck(requestedWord string, definedWord string) bool {
 func main() {
 	definedNames := []string{
 		"Chandan Kumar Rai",
-		"Mohit S R",
-		"Ram R M",
+		"Mohit Singh Rajput",
+		"Ram Kumar Mahto",
 	}
-	requestedName := "R Rai"
+	requestedName := "C Kumar Ray"
 	res := prefixNameFinder(definedNames, requestedName)
 	fmt.Println("Result ::", res)
 }

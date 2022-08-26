@@ -1,0 +1,31 @@
+Kubernetes Security
+
+1. Can you explain what RBAC is in the context of Kubernetes security?
+-> It control access of k8s resources on kubernetes. It stand for Role-Based-Access-Control. We can create role and
+   role-binding/ Cluster role and Cluster role binding to provide access to cluster resources.
+
+2. How can you make sure that containers are secure when running them on top of Kubernetes?
+-> A. Make sure your using kubernetes latest version, as security patches are often released for new vulnerabilities.
+   B. Aqua scan for find vulnerabilities and recommendation.
+
+3. What is the best way to install certificates securely in a Kubernetes cluster?
+-> Best way to install cert securely in a kubernetes cluster is to use kube-cert-manager tool.
+
+Note: Kubernetes requires PKI certificates for authentication over TLS
+4. Difference between TLS and SSL?
+-> TLS, short for Transport Layer Security, and SSL, short for Secure Socket Layers, are both cryptographic protocols
+   that encrypt data and authenticate a connection when moving data on the Internet.
+   -> Well, TLS is actually just a more recent version of SSL. It fixes some security vulnerabilities in the earlier SSL
+   protocols.
+
+5. Certification concept ?
+-> With a symmetrical key, a key is used to encrypt or sign the message, and the same key is used to decrypt the message.
+-> With Public and Private keys, two keys are used that are mathematically related (they belong as a key pair),
+   but are different.
+    http://www.steves-internet-guide.com/ssl-certificates-explained/
+    https://kubernetes.io/docs/setup/best-practices/certificates/#:~:text=Kubernetes%20requires%20PKI%20certificates%20for,them%20on%20the%20API%20server.
+   Digital certificates contain a copy of a public key from the certificate holder, which needs to be matched to a
+   corresponding private key to verify it is real. A public key certificate is issued by certificate authorities (CAs),
+   which sign certificates to verify the identity of the requesting device or user.
+
+https://climbtheladder.com/kubernetes-security-interview-questions/

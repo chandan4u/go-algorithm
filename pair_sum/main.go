@@ -3,10 +3,10 @@ package main
 import "fmt"
 
 func main() {
-	arr := []int{10, 2, -2, -20, 10}
+	arr := []int{10, 2, 2, 4, 6}
 	sum := -22
 	// desiApproach(arr, sum)
-// 	hashApproach(arr, sum)
+	// 	hashApproach(arr, sum)
 
 	seqSumNum(arr, sum)
 }
